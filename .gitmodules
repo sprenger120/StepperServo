@@ -1,0 +1,3 @@
+[submodule "standardcontent"]
+	path = standardcontent
+	url = git@ottocar.cs.ovgu.de:ottocar/Electronic/generation6/standardcontent.git
