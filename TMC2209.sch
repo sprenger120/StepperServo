@@ -45,13 +45,13 @@ F 3 "~" H 10750 3100 50  0001 C CNN
 	1    10750 3100
 	-1   0    0    1   
 $EndComp
-Text Label 9200 3000 2    50   ~ 0
-coilA_1
-Text Label 9200 2900 2    50   ~ 0
-coilA_2
 Text Label 9200 3100 2    50   ~ 0
-coilB_1
+coilA_1
 Text Label 9200 3200 2    50   ~ 0
+coilA_2
+Text Label 9200 3000 2    50   ~ 0
+coilB_1
+Text Label 9200 2900 2    50   ~ 0
 coilB_2
 Text Label 7450 1850 0    50   ~ 0
 coilB_1
