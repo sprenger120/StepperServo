@@ -747,19 +747,15 @@ Wire Wire Line
 Wire Wire Line
 	900  4200 900  4150
 Text Label 900  4150 1    50   ~ 0
-Btn_MainOffset
+Btn_MagnetOffsetCal
 Text Label 1550 4150 1    50   ~ 0
-Btn_LeftWheelOffsaet
+Btn_WheelAngle_ServoAngleOffsetCal
 Wire Wire Line
 	1550 4200 1550 4150
 Text Label 7750 3900 0    50   ~ 0
 LED_RED
 Text Label 7750 4000 0    50   ~ 0
 LED_GREEN
-Text Label 7750 4100 0    50   ~ 0
-Btn_MainOffset
-Text Label 7750 4200 0    50   ~ 0
-Btn_LeftWheelOffsaet
 Text Label 7100 3650 0    50   ~ 0
 SWO
 Text Label 10600 2650 2    50   ~ 0
@@ -996,14 +992,8 @@ I2C2_SCL
 Text Label 7750 2450 0    50   ~ 0
 I2C2_SDA
 Wire Notes Line
-	550  3300 550  4900
-Wire Notes Line
 	550  4900 1850 4900
-Wire Notes Line
-	1850 4900 1850 3300
-Wire Notes Line
-	1850 3300 550  3300
-Text Notes 600  3400 0    50   ~ 10
+Text Notes 600  2650 0    50   ~ 10
 UI Buttons
 Text Notes 600  6600 0    50   ~ 10
 Bypassing Digital
@@ -1262,4 +1252,14 @@ F 3 "" H 4900 3000 50  0001 C CNN
 	1    4900 3000
 	0    -1   -1   0   
 $EndComp
+Wire Notes Line
+	550  2550 1850 2550
+Wire Notes Line
+	550  2550 550  4900
+Wire Notes Line
+	1850 2550 1850 4900
+Text Label 7750 4250 0    50   ~ 0
+Btn_WheelAngle_ServoAngleOffsetCal
+Text Label 7750 4150 0    50   ~ 0
+Btn_MagnetOffsetCal
 $EndSCHEMATC
