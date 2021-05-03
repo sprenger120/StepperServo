@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name tmc2209)(type Legacy)(uri ${KIPRJMOD}/symbols/tmc2209.lib)(options "")(descr ""))
   (lib (name standardContent)(type Legacy)(uri ${KIPRJMOD}/standardcontent/standardContent/standardContent.lib)(options "")(descr ""))
+  (lib (name omron_sx_3340)(type Legacy)(uri ${KIPRJMOD}/symbols/omron_sx_3340.lib)(options "")(descr ""))
+  (lib (name ams)(type Legacy)(uri ${KIPRJMOD}/symbols/ams.lib)(options "")(descr ""))
+  (lib (name ti)(type Legacy)(uri ${KIPRJMOD}/symbols/ti.lib)(options "")(descr ""))
 )
