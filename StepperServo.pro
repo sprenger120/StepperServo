@@ -1,4 +1,4 @@
-update=Di 04 Mai 2021 21:40:07 CEST
+update=Di 04 Mai 2021 23:47:00 CEST
 version=1
 last_client=kicad
 [general]
@@ -230,7 +230,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.254
+Clearance=0.15
 TrackWidth=0.25
 ViaDiameter=0.6
 ViaDrill=0.3
@@ -241,7 +241,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=smol
-Clearance=0.254
+Clearance=0.15
 TrackWidth=0.17
 ViaDiameter=0.6
 ViaDrill=0.3

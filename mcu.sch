@@ -594,8 +594,6 @@ Wire Notes Line
 	11150 3300 11150 5200
 Wire Notes Line
 	10450 3300 11150 3300
-Text Notes 7650 1700 0    50   ~ 0
-pins:\n- 1x current sensing, 2x temperature 3x ADC:\n- step: 1x Timer: \n- 3x as5600, eeprom: 3x I²C:\n- can: 1x can0:\n
 Wire Notes Line
 	550  6500 550  7700
 Wire Notes Line
@@ -687,7 +685,7 @@ Wire Notes Line
 	6650 7700 3100 7700
 Wire Notes Line
 	3100 7700 3100 6300
-Text Label 7750 4550 0    50   ~ 0
+Text Label 5600 3750 2    50   ~ 0
 tempMotor
 Text HLabel 7100 2750 2    50   Input ~ 0
 CAN_RX
@@ -697,13 +695,13 @@ Text HLabel 7100 3150 2    50   Output ~ 0
 Stepper_Step
 Text HLabel 5600 4350 0    50   Output ~ 0
 Stepper_Direction
-Text HLabel 7750 3300 2    50   Input ~ 0
+Text HLabel 5600 4750 0    50   Input ~ 0
 Stepper_Diag
-Text HLabel 7750 3200 2    50   BiDi ~ 0
+Text HLabel 5600 4550 0    50   BiDi ~ 0
 Stepper_UART
-Text HLabel 7750 3100 2    50   Output ~ 0
+Text HLabel 5600 4850 0    50   Output ~ 0
 ~Stepper_Enable
-Text HLabel 7750 2950 2    50   Output ~ 0
+Text HLabel 7100 2350 2    50   Input ~ 0
 InputCurrent
 Text Label 7100 3950 0    50   ~ 0
 I2C1_SCL
@@ -725,8 +723,6 @@ Text Notes 2100 6600 0    50   ~ 10
 Bypassing Analog
 Text Notes 3100 6400 0    50   ~ 10
 Temperature Measurement
-Text Notes 7600 5150 0    50   ~ 0
-todo assign pins
 $Comp
 L Device:R R19
 U 1 1 5FBD3B18
@@ -959,4 +955,43 @@ Wire Wire Line
 	1700 5350 1850 5350
 Wire Wire Line
 	5600 4650 5650 4650
+Wire Wire Line
+	7100 2350 7050 2350
+Wire Wire Line
+	5600 3750 5650 3750
+Wire Wire Line
+	5600 4550 5650 4550
+Wire Wire Line
+	5600 4750 5650 4750
+Wire Wire Line
+	5600 4850 5650 4850
+NoConn ~ 7050 4850
+NoConn ~ 7050 4750
+NoConn ~ 7050 4650
+NoConn ~ 7050 4550
+NoConn ~ 7050 4250
+NoConn ~ 7050 4150
+NoConn ~ 7050 3850
+NoConn ~ 7050 3750
+NoConn ~ 7050 3550
+NoConn ~ 7050 3450
+NoConn ~ 7050 3350
+NoConn ~ 7050 2650
+NoConn ~ 7050 2550
+NoConn ~ 7050 2450
+NoConn ~ 7050 2250
+NoConn ~ 7050 2150
+NoConn ~ 7050 2050
+NoConn ~ 7050 1950
+NoConn ~ 5650 3350
+NoConn ~ 5650 3450
+NoConn ~ 5650 3550
+NoConn ~ 5650 3650
+NoConn ~ 5650 3850
+NoConn ~ 5650 3950
+NoConn ~ 5650 4050
+NoConn ~ 5650 4150
+NoConn ~ 5650 4250
+NoConn ~ 5650 4450
+NoConn ~ 7050 1650
 $EndSCHEMATC

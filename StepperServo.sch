@@ -448,7 +448,7 @@ F5 "Stepper_Direction" O R 6900 4200 50
 F6 "Stepper_Diag" I R 6900 4500 50 
 F7 "Stepper_UART" B R 6900 4400 50 
 F8 "~Stepper_Enable" O R 6900 4100 50 
-F9 "InputCurrent" O L 5600 4350 50 
+F9 "InputCurrent" I L 5600 4350 50 
 $EndSheet
 Text Notes 9000 600  0    50   ~ 10
 All caps without voltage rating default to 6.3V versions
