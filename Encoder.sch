@@ -62,17 +62,6 @@ F 3 "~" H 4950 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C38
-U 1 1 5FD04F64
-P 4500 3800
-F 0 "C38" H 4615 3846 50  0000 L CNN
-F 1 "10uF 35V" H 4615 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4538 3650 50  0001 C CNN
-F 3 "~" H 4500 3800 50  0001 C CNN
-	1    4500 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0183
 U 1 1 5FD056C0
 P 4750 3600
@@ -84,19 +73,13 @@ F 3 "" H 4750 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3650 4750 3650
-Wire Wire Line
 	4750 3650 4750 3600
 Wire Wire Line
 	4750 3650 4950 3650
-Connection ~ 4750 3650
-Wire Wire Line
-	4500 3950 4750 3950
 Wire Wire Line
 	4750 3950 4750 4000
 Wire Wire Line
 	4750 3950 4950 3950
-Connection ~ 4750 3950
 NoConn ~ 5900 4050
 Wire Wire Line
 	5850 4200 5900 4200
